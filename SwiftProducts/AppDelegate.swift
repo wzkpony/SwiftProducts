@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        /*
+        BaseRequest().loadPOSTRequestWith(operationPath: "", params: ["":"" as AnyObject], successAction: { (obj) in
+            
+        }) { (error) in
+            
+        }
+        */
         return true
     }
 
