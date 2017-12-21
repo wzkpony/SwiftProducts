@@ -12,5 +12,6 @@ target 'SwiftProducts' do
     pod 'SnapKit'
     pod 'Kingfisher'
     pod 'IQKeyboardManagerSwift'
+    pod 'pop'
     
 end

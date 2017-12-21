@@ -23,6 +23,8 @@
 		1D695AF31FD666F200586B9F /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D695AF21FD666F200586B9F /* BaseButton.swift */; };
 		1D695AF51FD6672F00586B9F /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D695AF41FD6672F00586B9F /* BaseLabel.swift */; };
 		1D695AF71FD667A800586B9F /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D695AF61FD667A800586B9F /* BaseTabBarController.swift */; };
+		1D741A9F1FD6751600F93EF8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D741A9D1FD6751600F93EF8 /* LoginVC.swift */; };
+		1D741AA01FD6751600F93EF8 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D741A9E1FD6751600F93EF8 /* LoginVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		1D695AF21FD666F200586B9F /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		1D695AF41FD6672F00586B9F /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
 		1D695AF61FD667A800586B9F /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		1D741A9D1FD6751600F93EF8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1D741A9E1FD6751600F93EF8 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		58D47E60118C4355334F963F /* Pods_SwiftProducts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProducts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6712D14B2C4C1F0401FDFC7D /* Pods-SwiftProducts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProducts.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProducts/Pods-SwiftProducts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -256,8 +260,34 @@
 		1D695AE71FD6662300586B9F /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				1D741A9C1FD674F100F93EF8 /* Model */,
+				1D741A9A1FD674F100F93EF8 /* ViewController */,
+				1D741A9B1FD674F100F93EF8 /* ViewModel */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		1D741A9A1FD674F100F93EF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1D741A9D1FD6751600F93EF8 /* LoginVC.swift */,
+				1D741A9E1FD6751600F93EF8 /* LoginVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1D741A9B1FD674F100F93EF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1D741A9C1FD674F100F93EF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		58ECD9008A84FC3DAFEC5F11 /* Frameworks */ = {
@@ -389,6 +419,7 @@
 			files = (
 				1D06FBB11EFCC983005EB78E /* LaunchScreen.storyboard in Resources */,
 				1D06FBAE1EFCC983005EB78E /* Assets.xcassets in Resources */,
+				1D741AA01FD6751600F93EF8 /* LoginVC.xib in Resources */,
 				1D06FBAC1EFCC983005EB78E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D741A9F1FD6751600F93EF8 /* LoginVC.swift in Sources */,
 				1D06FBA91EFCC983005EB78E /* ViewController.swift in Sources */,
 				1D695AF51FD6672F00586B9F /* BaseLabel.swift in Sources */,
 				1D695AF71FD667A800586B9F /* BaseTabBarController.swift in Sources */,
