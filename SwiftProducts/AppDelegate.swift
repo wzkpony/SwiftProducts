@@ -25,6 +25,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }
         */
+        
+        
+        var a = [1,2,3]
+        
+        var b = a
+        
+        b[1] = 5
+        
+        print("a ="+a+"b = "+b)
+        
+        
         return true
     }
 
